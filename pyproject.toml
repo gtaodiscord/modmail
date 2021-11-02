@@ -7,12 +7,12 @@ authors = ["vcokltfre <vcokltfre@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 disnake = {extras = ["discord"], version = "^2.2.1"}
-aiosqlite = "^0.17.0"
 loguru = "^0.5.3"
 jishaku = "^2.3.1"
 taskipy = "^1.9.0"
 pydantic = "^1.8.2"
 PyYAML = "^6.0"
+asyncpg = "^0.24.0"
 
 [tool.poetry.dev-dependencies]
 
