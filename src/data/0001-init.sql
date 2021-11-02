@@ -25,6 +25,7 @@ CREATE TABLE IF NOT EXISTS ThreadMessages (
     message_id      BIGINT NOT NULL,
     dm_message_id   BIGINT DEFAULT NULL,
     created_at      TIMESTAMP NOT NULL,
+    content         TEXT NOT NULL,
     deleted         BOOLEAN NOT NULL DEFAULT FALSE
 );
 
