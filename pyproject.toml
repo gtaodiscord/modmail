@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "gtaomodmail"
+version = "0.1.0"
+description = "A custom modmail bot for the GTA Online server"
+authors = ["vcokltfre <vcokltfre@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+disnake = {extras = ["discord"], version = "^2.2.1"}
+aiosqlite = "^0.17.0"
+loguru = "^0.5.3"
+jishaku = "^2.3.1"
+taskipy = "^1.9.0"
+pydantic = "^1.8.2"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.taskipy.tasks]
+start = "python3 -m src"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
